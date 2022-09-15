@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "escuadra",
+    "precio": 300,
+    "imagen": "https://www.freepik.es/vector-gratis/regla-triangulo-medicion-herramientas-geometria_3056601.htm#query=escuadra&position=5&from_view=search",
+    "id": 1
+  },
+  {
+    "titulo": "escuadra",
+    "precio": 300,
+    "imagen": "https://www.freepik.es/vector-gratis/regla-triangulo-medicion-herramientas-geometria_3056601.htm#query=escuadra&position=5&from_view=search",
+    "id": 3
+  },
+  {
+    "titulo": "escuadra",
+    "precio": 300,
+    "imagen": "https://www.freepik.es/vector-gratis/regla-triangulo-medicion-herramientas-geometria_3056601.htm#query=escuadra&position=5&from_view=search",
+    "id": 4
+  }
+]
