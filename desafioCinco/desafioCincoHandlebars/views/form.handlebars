@@ -1,0 +1,29 @@
+<h2 class="text-center ">INGRESE EL PRODUCTO</h2>
+
+<form action="/productos" method="post">
+    <div class="row mb-3">
+        <label for="titulo" class="col-sm-2 col-form-label col-form-label-lg">PRODUCTO</label>
+        <div class="col-sm-10">
+            <input type="text" name="titulo" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Ingrese el producto" required>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="precio" class="col-sm-2 col-form-label col-form-label-lg">PRECIO</label>
+        <div class="col-sm-10">
+            <input type="number" class="form-control" id="colFormLabel" placeholder="Ingrese el precio" required>
+        </div>
+    </div>
+    <div class="row">
+        <label for="imagen" class="col-sm-2 col-form-label col-form-label-lg">Foto url</label>
+        <div class="col-sm-10">
+            <input type="img" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Ingrese url de la imagen" name="imagen">
+        </div>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-outline-secondary text-center btn-lg">AGREGAR PRODUCTO</button>
+    <a href="/productos"><button type="button" class="btn btn-outline-danger text-center btn-lg">VER PRODUCTOS</button></a>
+</form>
+
+
+
+

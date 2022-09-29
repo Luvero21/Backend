@@ -1,0 +1,33 @@
+<h2>PRODUCTOS</h2>
+{{#if productos.length}}
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Productos</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Imagen</th>
+        </tr>
+    </thead>
+    <tbody>
+    {{#each productos}}
+        <tr>
+            <th scope="row">{{titulo}}</th>
+            <td>{{precio}}</td>
+            <td>
+                <div>
+                    <img src={{imagen}} width="50" height="50" alt="imagen-de-producto"/>
+                </div>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+{{else}}
+<div class="mensage">
+    <h2>No se encuentran los productos</h2>
+    <p>Agregue alguno</p>
+</div>
+{{/if}}
+<a href="/">
+<button>AGREGAR</button>
+</a>
