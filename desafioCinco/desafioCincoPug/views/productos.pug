@@ -1,0 +1,26 @@
+extends layout 
+
+block content 
+
+    h2 PRODUCTOS
+    if productos.length
+        table
+             thead
+                  tr
+                    th Productos
+                    th Precio
+                    th Imagen
+             tbody
+                  each producto in productos
+                      tr
+                        th= producto.titulo
+                        td= producto.precio
+                        td
+                             img(src=producto.imagen width="50" height="50" alt="imagen-de-producto")
+
+    else
+           h2 No se encuentran los productos
+           p Agregue alguno
+
+    a(href="/")
+          button AGREGAR           
